@@ -1,0 +1,48 @@
+<!--
+    URLs e Caminhos dos arquivos
+
+    - Uniform Resource Locator
+        - https://www.rocketseat.com.br
+        - Sequência de texto que define onde algo está localizado na Web
+    - URL usam caminhos para encontrar arquivos
+
+    Caminhos dos arquivos
+        - Onde, no explorador de arquivos, um recurso está localizado
+-->
+
+<a href="hyperlinks.html" target="_blank">Abrir Hyperlinks</a>
+
+
+<!--
+    Como navegar pelos caminhos?
+
+    -mesmo diretório
+    -entrando em diretórios
+    -saindo de diretórios
+    -diretório raiz (root ou pai)
+-->
+<p>
+    <a href="./hyperlinks.html">abrir um arquivo da mesma pasta (diretório raiz)</a>
+    <br>
+    <a href="hyperlinks.html">outra forma de abrir um arquivo da mesma pasta</a>
+    <br>
+    <a href="../nome-do-arquivo">abrir um arquivo que está fora da pasta atual e dentro do diretório raiz</a>
+    <br>
+    <a href="../nome-da-pasta/nome-do-arquivo">abrir um arquivo que está dentro de outra pasta</a>
+</p>
+
+<!--
+    URLs absolutos versus relativos
+
+    -Absolutos
+        - inclui protocolo e nome de domínio
+            -http://www.rocketseat.com.br/projeto/index.html
+        sempre apontará para o mesmo local, pois é absoluto
+        
+    -Relativos
+        - relativo à página aberta no momento
+        - apontará para lugares diferentes
+-->
+
+<a href="google.com">relativo: ir para o google</a>
+<a href="https://google.com">absoluto: ir para o google</a>
